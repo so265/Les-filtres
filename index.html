@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Filtres</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>Les filtres</h1>
+    <section id="filters">
+        <button  id="all">Tous</button>
+        <button  id="flowers">Fleurs</button>
+        <button  id="arbres">Arbres</button>
+        <button  id="oiseaux">Oiseaux</button>
+    </section>
+
+    <div id="gallery">
+        <img src="images/arbre-rose.jpg" alt="arbre rose" data-arbres class="active"> <!--Je mets des datas pour afficher ou masquer les différents éléments, je les relies à chaqun de mes filtres correspondant tous, fleurs arbres et oiseaux-->
+        <img src="images/bird-vert.jpg" alt="oiseau vert" data-oiseaux class="active">
+        <img src="images/bird.jpg" alt="oiseau joli" data-oiseaux class="active">
+        <img src="images/flower and papillon.jpg" alt="fleur et papillon" data-flowers class="active">
+        <img src="images/les-plus-beaux-arbres-au-monde.jpeg" alt="bel arbre" data-arbres class="active">
+        <img src="images/oiseau.jpg" alt="oiseau" data-oiseaux class="active">
+        <img src="images/rose.jpg" alt="belle rose" data-flowers class="active">
+        <img src="images/tilleul-arbre.jpg" alt="arbre tilleul" data-arbres class="active">
+    </div>
+
+    <script src="index.js"></script>
+</body>
+
+</html>
